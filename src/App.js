@@ -135,7 +135,7 @@ function App() {
           <Download setInputUrl={setUrl} loading={loading} setLoading={setLoading} />
         </Route>
       </Switch>
-      <a className={classes.affliate} target="_blank" href={"https://www.github.com/Duthris/Duthris/youtube-downloader"}>
+      <a className={classes.affliate} target="_blank" href={"https://www.github.com/Duthris/youtube-downloader"}>
         👉 Click to see the source code of react project on my github.
       </a>
       <Seo />
