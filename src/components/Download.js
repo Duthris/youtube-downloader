@@ -90,7 +90,7 @@ export default function Download({ loading, setLoading }) {
                     <p>Video</p>
                     <div className={classes.DownloadSection}>
                         {formats && formats.map((format, index) => (
-                            format.qualityLabel === null ? "" : <Chip label={format.qualityLabel} onClick={() => { downloadFile(format.itag, format.hasVideo) }} key={index} color="primary" style={{ margin: "0px 7px 7px 0px", cursor: "pointer" }} />
+                            format.qualityLabel === null ? "" : format.hasAudio === true ? <Chip label={format.qualityLabel} onClick={() => { downloadFile(format.itag, format.hasVideo) }} key={index} color="primary" style={{ margin: "0px 7px 7px 0px", cursor: "pointer" }} /> : ""
                         ))}
                     </div>
                     <p>Audio</p>
