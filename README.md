@@ -1,6 +1,6 @@
 # This is a Demo Youtube Downloader project to improve javascript react knowledge. Axios is used for using API calls. 
 
-# You can test this demo in a live hosting which is hosted by google firebase  => [Duthris Youtube Downloader](https://duthris--downloader.web.app).
+# You can test this demo in a live hosting which is hosted by google firebase  => [Duthris Youtube Downloader](https://youtube-downloader.duthris.com).
 
 ![Index1](https://user-images.githubusercontent.com/71668283/130363508-a061216e-9dcb-4a52-ab0b-85d84201f0f6.png)
 ![Index2](https://user-images.githubusercontent.com/71668283/130363509-96eeea2b-3c14-4caf-8c8d-e2c5831b1292.png)
